@@ -22,6 +22,7 @@
 	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
 	
 	<access origin="*.pushwoosh.com" />
+	<preference name="fullscreen" value="true" />
 	
 	<gap:platform name="android" />
 </widget>
