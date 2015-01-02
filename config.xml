@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "de.gamemodeon.ibeastify"
+	version		= "0.0">
+	<preference name="phonegap-version" value="3.6.3" />
+
+	<name>BST</name>
+	<description>
+		Eine gute App für einen guten Youtuber.
+	</description>
+	<author href="http://gamemodeon.de/forum/User/1/" email="lub@gamemodeon.de">
+		lub
+	</author>
+	
+	<icon src="images/icon.png" />
+	
+	<preference name="permissions" value="none" />
+	<feature name="http://api.phonegap.com/1.0/network" />
+	
+	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+	
+	<access origin="*.pushwoosh.com" />
+	
+	<gap:platform name="android" />
+</widget>

@@ -1,0 +1,28 @@
+body {
+	border: 1px solid;
+	background-image: url(images/background.jpg);
+	background-size: 100% auto;
+}
+
+
+#content {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	width: 100%;
+}
+
+#logo {
+	width: 48%;
+	margin-bottom: 1%;
+}
+
+.social {
+	width: 15%;
+}
+#facebook {
+	margin-right: 1.5%;
+}
+#youtube {
+	margin-left: 1.5%;
+}
