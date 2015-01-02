@@ -14,4 +14,4 @@ function initPushwoosh() {
 	);
 }
 
-document.addEventListener('initPushwoosh', init, true);
+document.addEventListener('deviceready', initPushwoosh, true);
